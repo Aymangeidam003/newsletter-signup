@@ -1,4 +1,4 @@
-/* ---------- Reset ---------- */
+
 *,
 *::before,
 *::after {
@@ -35,7 +35,6 @@ img {
   max-width: 100%;
 }
 
-/* ---------- Tokens ---------- */
 :root {
   --navy: #2b2f4c;
   --navy-dark: #1f2238;
@@ -55,19 +54,19 @@ img {
     Arial, sans-serif;
 }
 
-/* ---------- Base ---------- */
 body {
   font-family: var(--font);
   background-color: var(--grey-bg);
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
   padding: 24px;
   color: var(--navy);
 }
 
-/* ---------- Card shell ---------- */
 .card {
   width: 100%;
   max-width: 920px;
@@ -90,7 +89,6 @@ body {
   justify-content: center;
 }
 
-/* ---------- Text ---------- */
 .heading {
   font-size: 40px;
   font-weight: 800;
@@ -266,7 +264,7 @@ body {
   max-width: 100%;
 }
 
-/* ---------- Attribution ---------- */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -278,7 +276,6 @@ body {
   color: var(--coral);
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 800px) {
   .panel--form {
     grid-template-columns: 1fr;
