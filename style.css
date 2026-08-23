@@ -106,7 +106,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* ---------- Benefits list ---------- */
+
 .benefits {
   display: flex;
   flex-direction: column;
@@ -126,7 +126,7 @@ body {
   flex-shrink: 0;
 }
 
-/* ---------- Form ---------- */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -179,7 +179,7 @@ body {
   box-shadow: 0 0 0 3px rgba(43, 47, 76, 0.12);
 }
 
-/* Error state */
+
 .card.is-invalid .form__error {
   display: inline-block;
 }
@@ -194,7 +194,7 @@ body {
   box-shadow: 0 0 0 3px rgba(255, 111, 91, 0.18);
 }
 
-/* ---------- Button ---------- */
+
 .btn {
   width: 100%;
   padding: 16px;
@@ -221,10 +221,14 @@ body {
   transform: translateY(1px);
 }
 
-/* ---------- Illustration panel ---------- */
+
 .panel__art {
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
 }
 
 .panel__art picture,
